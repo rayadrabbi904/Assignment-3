@@ -1,103 +1,297 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
+  <head>
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <!-- Tailwind setup -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- DaisyUi setup -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<!-- google font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
-<style>
-    .man-rope{font-family: 'Manrope', sans-serif;} 
-</style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .man-rope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body class="man-rope">
+  </head>
+  <body class="man-rope">
     <header class="container mx-auto">
-     <!-- navbar section -->
+      <!-- navbar section -->
       <nav>
         <div class="">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li class="text-[#FF4240] font-bold"><a>Home</a></li>
-                      <li> <a>About</a></li>
-                        <li><a>Pages</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Contact</a></li>
-                       
-                      </ul>
-                     </div> 
-                    
-                  
-                  <a class="btn btn-ghost font-extrabold text-2xl lg:text-4xl font-extabold">Hockey</a>
+          <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                  </svg>
                 </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li class="text-[#FF4240] font-bold"><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Pages</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Contact</a></li>
-                    
-                  </ul>
-                </div>
-                
-                <div class="navbar-end  lg:space-x-6">
-                    <div class="hidden lg:block"><i class="fa-solid fa-magnifying-glass"></i></div>
-                  <a class="btn px-4 py-2 bg-[#FF4240] text-white font-bold rounded-xl lg:py-4 px-6 rounded-xl">Get Ticket</a>
-                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                >
+                  <li class="text-[#FF4240] font-bold"><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
               </div>
+
+              <a
+                class="btn btn-ghost font-extrabold text-2xl lg:text-4xl font-extabold"
+                >Hockey</a
+              >
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li class="text-[#FF4240] font-bold"><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="navbar-end lg:space-x-6">
+              <div class="hidden lg:block">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <a
+                class="btn px-4 py-2 bg-[#FF4240] text-white font-bold rounded-xl lg:py-4 px-6 rounded-xl"
+                >Get Ticket</a
+              >
+            </div>
+          </div>
         </div>
       </nav>
 
       <!-- slider section -->
       <div class="carousel w-full py-7 rounded-xl lg:py-14 rounded-xl">
         <div id="slide1" class="carousel-item relative w-full">
-          <img src="./Images/1.png" class=" w-full relative" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" class="btn btn-circle">❮</a> 
+          <img src="./Images/1.png" class="w-full relative" />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide4" class="btn btn-circle">❮</a>
             <a href="#slide2" class="btn btn-circle">❯</a>
-            <div class=" bg-black rounded-2xl absolute space-y-4  lg:left-[604px] p-8 top-32">
-              <h2 class="text-white text-[18px] font-extrabold lg:text-2xl">Meet All The Heros From The Field</h2>
-              <p class=" text-[#ffffff99] text-[14px] lg:w-[500px] text-base">Hockey's heroes inspire with skill and dedication. From Gretzky's records to Jágr's longevity, they embody greatness</p>
+            <div
+              class="bg-black rounded-2xl absolute space-y-4 lg:left-[604px] p-8 top-32"
+            >
+              <h2 class="text-white text-[18px] font-extrabold lg:text-2xl">
+                Meet All The Heros From The Field
+              </h2>
+              <p
+                class="text-[#ffffff99] text-[14px] mt-4 lg:w-[500px] text-base"
+              >
+                Hockey's heroes inspire with skill and dedication. From
+                Gretzky's records to Jágr's longevity, they embody greatness
+              </p>
             </div>
           </div>
-        </div> 
+        </div>
         <!-- 2 -->
         <div id="slide2" class="carousel-item relative w-full">
-          <img src="./Images/1.png" class=" w-full relative" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-circle">❮</a> 
+          <img src="./Images/1.png" class="w-full relative" />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide1" class="btn btn-circle">❮</a>
             <a href="#slide3" class="btn btn-circle">❯</a>
-            <div class=" bg-black rounded-2xl absolute space-y-4  lg:left-[604px] p-8 top-32">
-              <h2 class="text-white text-[18px] font-extrabold lg:text-2xl">Meet All The Heros From The Field</h2>
-              <p class=" text-[#ffffff99] text-[14px] lg:w-[500px] text-base">Hockey's heroes inspire with skill and dedication. From Gretzky's records to Jágr's longevity, they embody greatness</p>
+            <div
+              class="bg-black rounded-2xl absolute space-y-4 lg:left-[604px] p-8 top-32"
+            >
+              <h2 class="text-white text-[18px] font-extrabold lg:text-2xl">
+                Meet All The Heros From The Field
+              </h2>
+              <p
+                class="text-[#ffffff99] text-[14px]mt-4 lg:w-[500px] text-base"
+              >
+                Hockey's heroes inspire with skill and dedication. From
+                Gretzky's records to Jágr's longevity, they embody greatness
+              </p>
             </div>
           </div>
-        </div> 
-        
+        </div>
       </div>
-
     </header>
 
-    <main>
+    <!-- Main section start -->
+
+    <main class="container mx-auto mt-20">
+      <div class="">
+        <hr class="border-dashed" />
+        <h2
+          class="text-center text-xl lg:text-4xl font-extrabold space-y-10 pt-8"
+        >
+          Professional Hockeys Club
+        </h2>
+        <p
+          class="text-center text-xs p-3 text-gray-400 lg:text-xl font-medium pb-8 mt-5"
+        >
+          Notable events and people have shaped the development of ice hockey
+          since the 19th century
+        </p>
+        <hr class="border-dashed" />
+      </div>
+
+      <div class="text-center gap-6 pt-6 grid grid-cols-1 justify-center lg:grid-row-4 ml-9 mr-9">
+        
       
+        <div class="">
+          <div
+            class="radial-progress text-red-500"
+            style="--value: 87"
+            role="progressbar"
+          >
+            87%
+          </div>
+          <h3 class="text-xl font-semibold mt-4">Prayer Facilty</h3>
+          <p class="font-normal  text-base mt-4 lg: pl-8">
+            Designing prayer facilities Guidelines for <br> inclusivity and spiritual
+            serenity
+          </p>
+        </div>
+
+        <div class="">
+          <div
+            class="radial-progress text-green-400"
+            style="--value: 95"
+            role="progressbar"
+          >
+            95%
+          </div>
+          <h3 class="text-xl  font-semibold mt-4">Experienced Coach</h3>
+          <p class="font-normal ml-5 text-base mt-4 lg:pl-8">
+            Passionate coach, skilled in hockey <br>shapes players for successy
+          </p>
+        </div>
+        <div class="">
+          <div
+            class="radial-progress text-amber-400"
+            style="--value: 90"
+            role="progressbar"
+          >
+            90%
+          </div>
+          <h3 class="text-xl font-semibold mt-4">Senior Player</h3>
+          <p class="font-normal ml-7 text-base mt-4 lg:pl-8">
+            Distinguished senior hockey player, skilled in strategy, leadership,
+            and mentorship <br> contributing to team success with experience and
+            expertise.
+          </p>
+        </div>
+        <div class="">
+          <div
+            class="radial-progress text-blue-500"
+            style="--value: 80"
+            role="progressbar"
+          >
+            80%
+          </div>
+          <h3 class="text-xl font-semibold mt-4">Traning Ground</h3>
+          <p class="font-normal ml-7 text-base mt-4 lg:pl-8">
+            Hockey training grounds, equipped with specific facilities, foster
+            skill <br>development, teamwork and physical conditioning for aspiring
+            players.
+          </p>
+        </div>
+      </div>
+
+      <!-- program section -->
+      <section class="">
+      <div class="mt-24">
+        <hr class="border-dashed">
+        <h2 class="text-center text-xl lg:text-4xl font-extrabold space-y-10  pt-8 ">Program Sections</h2>
+        <p class=" text-center text-xs p-3 text-gray-400  lg:text-xl font-medium pb-8 mt-5">A hockey program fosters skill development, teamwork, and sportsmanship, enhancing players' overall athletic abilities</p>
+        <hr class="border-dashed">
+      </div>
+
+
+     <div class="grid grid-cols-1 p-4 lg:grid-cols-2 gap-4">
+       <div  class="relative">
+      <img src="./Images/2.png" alt="">
+      <div class="absolute space-y-3 -translate-y-44 translate-x-8">
+       <h3 class="font-extrabold text-white text-3xl">Junior Program</h3>
+       <p class="text-white text-sm font-semibold lg:mt-4">Striking a balance between gaming and  other activities <br>is crucial for a healthy lifestyle.</p>
+       <button class=" text-white  border-0 btn bg-orange-600 lg: px-5 py-2 mt-4">Secondary</button>
+      </div>
+          </div>
+          <!--  -->
+          <div  class="relative">
+            <img src="./Images/3.png" alt="">
+            <div class="absolute space-y-3 -translate-y-44 translate-x-8">
+             <h3 class="font-extrabold text-white text-2xl">Teenager Program</h3>
+             <p class="text-white font-semibold lg: mt-4">Teenager Game Programs: Balancing <br> Benefits and Potential Risks.</p>
+             <button class=" text-white border-0 btn bg-orange-600 px-5 py-2 mt-4">Secondary</button>
+            </div>
+                </div>
+                <!--  -->
+                <div class="relative col-span-1 lg:col-span-2">
+                  <img class="" src="./Images/4.png" alt="">
+                  <div class="absolute mt-9 lg:space-y-3 -translate-y-44 translate-x-8">
+                   <h3 class="font-extrabold mb-1 text-white lg:text-2xl">Professional Program</h3>
+                   <p class="text-white text-sm ">Participants experience growth and networking <br> within the dynamic hockey community.</p>
+                   <button class=" text-white border-0 btn  bg-orange-600 lg:py-2">Secondary</button>
+                  </div>
+                      </div>
+   
+     </div>
+
+
+
+
+
+
+
+
+<!-- 
+    <div>
+      <img class="relative grid-rows-1" src="./Images/2.png" alt="">
+      <div class="absolute -mt-60 pl-10">
+       <h3 class="font-extrabold text-white text-3xl">Junior Program</h3>
+       <p class="text-white font-semibold w-[495px] mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aspernatur.</p>
+       <button class=" text-white border-0 btn bg-orange-600 px-5 py-2 mt-4">Secondary</button>
+      </div>
+    </div> -->
+    
+     
+    </section>
+   
+
     </main>
 
-    <footer>
-
-    </footer>
-</body>
+    
+    
+    <footer></footer>
+  </body>
 </html>
